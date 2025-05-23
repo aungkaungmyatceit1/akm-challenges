@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 40px;
+}
+
+header .logo-container img {
+  margin-bottom: 50px;
+}
+
+.main-container .second-container {
+  max-width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .main-container .second-container {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main-container .second-container .image-container {
+  margin: 50px;
+}
+.main-container .second-container .image-container img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container .second-container .content {
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+.main-container .second-container .content h3 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  color: white;
+}
+.main-container .second-container .content p {
+  color: rgb(224, 214, 214);
+  font-weight: 300;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+.main-container .second-container .content a button {
+  padding: 30px 80px;
+  font-size: 1.7rem;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px rgb(75, 72, 72);
+  color: hsl(300, 69%, 71%);
+}
+.main-container .second-container .content a button:active {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+
+.footer {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
+}
+.footer .mini-container {
+  width: 10px;
+  height: 10px;
+  color: white;
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .mini-container i {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
